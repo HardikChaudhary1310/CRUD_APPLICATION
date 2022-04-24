@@ -1,13 +1,11 @@
 {
   "name": "crudApp",
-  "homepage": "https://HardikChaudhary1310.github.io/reactlivewebsite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
