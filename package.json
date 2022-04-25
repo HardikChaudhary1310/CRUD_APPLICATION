@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon sever.js"
+    "dev": "nodemon sever.js",
+    "build": "react scripts build",
+    "test": "react scripts test",
+    "eject": "react scripts eject",
+    "start": "react scripts start"
   },
   "keywords": [],
   "author": "Hardik Chaudhary",
